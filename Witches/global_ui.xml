@@ -1,0 +1,25 @@
+<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->
+<Defaults>  
+  <!-- Set the default color and font size for all Text elements -->  
+  <Text color="black" fontSize="23" />  
+  <Panel width = "30%" height = "40%" color="white" allowDragging="true" returnToOriginalPositionWhenReleased="false"/>    
+  <button class="close" width="20" height="20" color='red'/>
+</Defaults>
+
+<Panel id='mainPanel' shadow="black">
+  <VerticalLayout>
+    <TableLayout>  
+      <Row>  
+        <Cell columnSpan='20'></Cell>  
+        <Cell>
+          <button class="close" onClick="closePanel">X</button>  
+        </Cell>
+      </Row>
+    </TableLayout>
+    <Text>Выберите количество игроков:</Text>
+    <Button id="prepare1" onClick="prepareTable">1 игрок</Button>
+    <Button id="prepare2" onClick="prepareTable">2 игрока</Button>
+    <Button id="prepare3" onClick="prepareTable">3 игрока</Button>
+    <Button id="prepare4" onClick="prepareTable">4 игрока</Button>
+  </VerticalLayout>
+</Panel>
