@@ -2,7 +2,7 @@ function onload()
 end
 
 --
--- Object GUIDs
+-- Containers GUIDs
 hardProblemsBagId = 'bc30d3'
 easyProblemsBagId = '4b51a2'
 deckId = '10838d'
@@ -37,13 +37,23 @@ gorodLankr1 = '512a23'
 gorodLankr2 = 'e005d7'
 gorodLankr3 = '982b09'
 
-initial_hard_problems = {
+--
+-- Boxes on the field
+box1 = 'd65a41'
+box2 = '6d05ad'
+box3 = 'c0fcf9'
+box4 = 'e92d91'
+box5 = '40f08c'
+box6 = '3fdc38'
+boxes = {box1, box2, box3, box4, box5, box6}
+
+initialHardProblemsBoxes = {
 	{1, 1, 1, 0, 0, 0},
 	{1, 1, 2, 1, 1, 1},
 	{2, 2, 2, 2, 2, 2},
 	{2, 2, 2, 2, 2, 0},
 }
-initial_easy_problems = {
+initialEasyProblemsBoxes = {
 	{2, 2, 1, 0, 0, 0},
 	{2, 2, 1, 2, 1, 1},
 	{2, 2, 2, 2, 2, 2},
@@ -65,13 +75,14 @@ function prepareTable(player, mouseBtn, btnId)
 	shuffle(easyProblemsBagId)
 	shuffle(deckId)
 
-	-- Put problems on the field
+	-- put problems on the field
 	putHardProblemsOnField()
 	putEasyProblemsOnField()
 	
-	-- Put easy problems on the field
-	-- Put hard problems in the boxes
-	-- Put easy problems in the boxes
+	-- put problems in the boxes
+	putProblemsInBoxes(numberOfPlayers)
+
+	-- TODO: put hihihiTokens
 	
 	closePanel()
 end
@@ -110,6 +121,28 @@ function putEasyProblemsOnField()
 	end
 end
 
+function putProblemsInBoxes(playersCount)
+	-- hard problems
+	local bag = getObjectFromGUID(hardProblemsBagId)
+	for i, numOfProblems in pairs(initialHardProblemsBoxes[playersCount]) do
+		local boxId = boxes[i]
+		for x = 1, numOfProblems do
+			putNextProblem(bag, boxId, true)
+		end
+	end
+
+	local bag = getObjectFromGUID(easyProblemsBagId)
+	for i, numOfProblems in pairs(initialEasyProblemsBoxes[playersCount]) do
+		local boxId = boxes[i]
+		for x = 1, numOfProblems do
+			-- 100ms delays between the spawns to give some time
+			-- for previous problem to stop moving
+			Wait.time(|| putNextProblem(bag, boxId, false), x / 10)
+		end
+	end
+end
+
+
 function putNextProblem(bag, placeId, isHard)
 	local params = buildProblemRetrievalParams(placeId, isHard) 
 	bag.takeObject(params)
@@ -123,7 +156,7 @@ function buildProblemRetrievalParams(placeId, isHard)
 		-- rotate on 180 degrees as bag is positioned incorrectly
 		-- at the beginning of the game
 		rotation = Vector(0, 180, 0),
-		smooth = false,
+		smooth = not isHard,
 		callback_function = |problem| onProblemRetrieved(problem, isHard)
 	}
 end
@@ -135,8 +168,6 @@ function onProblemRetrieved(problem, isHard)
 	problem.scale(2)
 end
 
-
 function closePanel()
 	self.UI.hide('mainPanel')
 end
-
