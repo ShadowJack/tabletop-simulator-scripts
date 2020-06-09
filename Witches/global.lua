@@ -6,6 +6,7 @@ end
 hardProblemsBagId = 'bc30d3'
 easyProblemsBagId = '4b51a2'
 deckId = '10838d'
+hihiBagId = 'e2eacb'
 
 --
 -- Places on the map
@@ -82,7 +83,8 @@ function prepareTable(player, mouseBtn, btnId)
 	-- put problems in the boxes
 	putProblemsInBoxes(numberOfPlayers)
 
-	-- TODO: put hihihiTokens
+	-- take specific number of hihihiTokens from the bag
+	putHihiTokens(numberOfPlayers)
 	
 	closePanel()
 end
@@ -142,6 +144,21 @@ function putProblemsInBoxes(playersCount)
 	end
 end
 
+function putHihiTokens(playersCount)
+	local bag = getObjectFromGUID(hihiBagId)
+	local hihiTokensCount = playersCount * 4
+	local params = {
+		position = bag.positionToWorld(Vector(0, 0, 5)),
+		rotation = Vector(0, 180, 0),
+	}
+	for i = 1, hihiTokensCount do
+		bag.takeObject(params)
+	end
+
+	-- delete the bag as it's not required anymore
+	Wait.time(|| destroyObject(bag), 1)
+end
+
 
 function putNextProblem(bag, placeId, isHard)
 	local params = buildProblemRetrievalParams(placeId, isHard) 
@@ -153,8 +170,6 @@ function buildProblemRetrievalParams(placeId, isHard)
 
 	return {
 		position = placePosition,
-		-- rotate on 180 degrees as bag is positioned incorrectly
-		-- at the beginning of the game
 		rotation = Vector(0, 180, 0),
 		smooth = not isHard,
 		callback_function = |problem| onProblemRetrieved(problem, isHard)

@@ -1,7 +1,7 @@
 {
   "SaveName": "Плоский мир: Ведьмы / The Witches: A Discworld Game (RUS) (Scripted)",
   "GameMode": "Плоский мир: Ведьмы / The Witches: A Discworld Game (RUS) (Scripted)",
-  "Date": "6/9/2020 2:41:04 PM",
+  "Date": "6/9/2020 5:08:31 PM",
   "Gravity": 0.5,
   "PlayArea": 0.5,
   "GameType": "",
@@ -112,9 +112,9 @@
           "rotX": 0.0,
           "rotY": 359.8334,
           "rotZ": 0.0,
-          "scaleX": 19.4726982,
+          "scaleX": 19.4727287,
           "scaleY": 7.0,
-          "scaleZ": 4.790882
+          "scaleZ": 4.79086637
         }
       },
       {
@@ -126,7 +126,7 @@
           "rotX": 0.0,
           "rotY": 359.8334,
           "rotZ": 0.0,
-          "scaleX": 19.53492,
+          "scaleX": 19.5349827,
           "scaleY": 7.0,
           "scaleZ": 5.221213
         }
@@ -142,7 +142,7 @@
           "rotZ": 0.0,
           "scaleX": 19.41066,
           "scaleY": 7.0,
-          "scaleZ": 5.036523
+          "scaleZ": 5.03650331
         }
       },
       {
@@ -154,7 +154,7 @@
           "rotX": 0.0,
           "rotY": 359.8334,
           "rotZ": 0.0,
-          "scaleX": 19.4726715,
+          "scaleX": 19.4726982,
           "scaleY": 7.0,
           "scaleZ": 4.975518
         }
@@ -311,10 +311,10 @@
       "Name": "DeckCustom",
       "Transform": {
         "posX": 42.3633,
-        "posY": 1.24691987,
+        "posY": 1.24692,
         "posZ": -29.25558,
-        "rotX": -1.47962979E-07,
-        "rotY": 180.30687,
+        "rotX": 2.024233E-07,
+        "rotY": 180.306854,
         "rotZ": 180.0,
         "scaleX": 2.0,
         "scaleY": 1.0,
@@ -2697,11 +2697,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": -48.78421,
-        "posY": 1.29656565,
+        "posY": 1.29656458,
         "posZ": -29.9865913,
-        "rotX": -0.000581431668,
-        "rotY": 180.023239,
-        "rotZ": 0.0008683803,
+        "rotX": -0.000573295867,
+        "rotY": 180.023163,
+        "rotZ": 0.0008560319,
         "scaleX": 0.625,
         "scaleY": 0.625,
         "scaleZ": 0.625
@@ -2746,12 +2746,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": -2.1654973,
-        "posY": 1.292466,
+        "posX": -2.16549635,
+        "posY": 1.29246593,
         "posZ": -30.10734,
-        "rotX": 1.66076734E-05,
+        "rotX": 1.65829242E-05,
         "rotY": 179.9827,
-        "rotZ": 1.06851223E-06,
+        "rotZ": 1.07194194E-06,
         "scaleX": 0.625,
         "scaleY": 0.625,
         "scaleZ": 0.625
@@ -2847,11 +2847,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": 46.97502,
-        "posY": 0.7761846,
-        "posZ": -6.932252,
-        "rotX": 1.6612114E-06,
-        "rotY": 0.138842747,
-        "rotZ": 1.08423831E-06,
+        "posY": 0.7761838,
+        "posZ": -6.93225145,
+        "rotX": -3.23186725E-07,
+        "rotY": 0.13890335,
+        "rotZ": 1.116852E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2861,7 +2861,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.705913961,
-        "g": 0.366569728,
+        "g": 0.366569668,
         "b": 0.0
       },
       "Locked": false,
@@ -3441,11 +3441,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": 47.2657356,
-        "posY": 0.7761844,
-        "posZ": -0.8077412,
-        "rotX": -8.608609E-06,
-        "rotY": 0.2109186,
-        "rotZ": 1.13183532E-05,
+        "posY": 0.7761841,
+        "posZ": -0.807741463,
+        "rotX": 4.061987E-07,
+        "rotY": 0.211024955,
+        "rotZ": 3.68438322E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3455,7 +3455,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.705913961,
-        "g": 0.366569728,
+        "g": 0.366569668,
         "b": 0.0
       },
       "Locked": false,
@@ -4219,11 +4219,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": 46.3200073,
-        "posY": 0.77618295,
+        "posY": 0.7761836,
         "posZ": -11.5579624,
-        "rotX": 6.403565E-07,
-        "rotY": -0.00312617887,
-        "rotZ": 9.621454E-07,
+        "rotX": 6.920334E-07,
+        "rotY": -0.00312731951,
+        "rotZ": 3.601669E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4233,7 +4233,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.70591,
-        "g": 0.366563559,
+        "g": 0.3665635,
         "b": 0.0
       },
       "Locked": false,
@@ -4837,11 +4837,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": -42.7411842,
-        "posY": 1.11522043,
+        "posY": 1.11522079,
         "posZ": -28.943758,
-        "rotX": -6.738715E-05,
+        "rotX": -6.690193E-05,
         "rotY": 180.023209,
-        "rotZ": 0.000355542259,
+        "rotZ": 0.000350388378,
         "scaleX": 3.0,
         "scaleY": 3.0,
         "scaleZ": 3.0
@@ -4949,7 +4949,7 @@
         "posZ": -29.051899,
         "rotX": 3.03236866E-05,
         "rotY": 180.023056,
-        "rotZ": 2.09133077E-06,
+        "rotZ": 2.09133168E-06,
         "scaleX": 3.0,
         "scaleY": 3.0,
         "scaleZ": 3.0
@@ -5055,7 +5055,7 @@
         "posX": 26.5958252,
         "posY": 1.111217,
         "posZ": -29.0943851,
-        "rotX": 7.00156164E-08,
+        "rotX": 7.00156448E-08,
         "rotY": 180.030029,
         "rotZ": 3.69831277E-08,
         "scaleX": 3.0,
@@ -5269,11 +5269,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -50.1588669,
-        "posY": 0.9679734,
+        "posY": 0.96797353,
         "posZ": -6.233528,
-        "rotX": 1.856424E-07,
-        "rotY": 30.0003128,
-        "rotZ": 6.021759E-07,
+        "rotX": -6.430659E-07,
+        "rotY": 30.0003357,
+        "rotZ": 3.80121634E-07,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -5308,11 +5308,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -50.320446,
-        "posY": 0.967973053,
+        "posY": 0.967974067,
         "posZ": -8.822654,
-        "rotX": -1.63352968E-06,
-        "rotY": 60.014286,
-        "rotZ": -9.125801E-07,
+        "rotX": 1.73043428E-08,
+        "rotY": 60.0141563,
+        "rotZ": -4.36752856E-07,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -5347,11 +5347,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -46.9890022,
-        "posY": 0.9679737,
+        "posY": 0.967974,
         "posZ": -6.58404,
-        "rotX": 1.92653238E-06,
-        "rotY": 240.0953,
-        "rotZ": -7.195301E-07,
+        "rotX": 1.27042631E-06,
+        "rotY": 240.095337,
+        "rotZ": -1.18382343E-06,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -5361,7 +5361,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.172441214,
+        "g": 0.172441155,
         "b": 1.0
       },
       "Locked": false,
@@ -5386,11 +5386,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -47.3796425,
-        "posY": 0.9679734,
+        "posY": 0.9679733,
         "posZ": -8.914491,
-        "rotX": -2.87441844E-06,
-        "rotY": 209.531448,
-        "rotZ": -2.07511448E-06,
+        "rotX": 3.72240635E-07,
+        "rotY": 209.531372,
+        "rotZ": 5.3275393E-08,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -5425,10 +5425,10 @@
       "Name": "Custom_Dice",
       "Transform": {
         "posX": -49.7692947,
-        "posY": 1.46052361,
+        "posY": 1.46052563,
         "posZ": 16.9608974,
-        "rotX": -2.561321E-06,
-        "rotY": 26.74076,
+        "rotX": -8.537737E-06,
+        "rotY": 26.7407589,
         "rotZ": 270.0,
         "scaleX": 1.5,
         "scaleY": 1.5,
@@ -5716,9 +5716,9 @@
       "Name": "Custom_Dice",
       "Transform": {
         "posX": -46.8177338,
-        "posY": 1.46052325,
+        "posY": 1.46052337,
         "posZ": 16.498661,
-        "rotX": 8.53773656E-07,
+        "rotX": 2.561321E-06,
         "rotY": 25.9119511,
         "rotZ": 270.0,
         "scaleX": 1.5,
@@ -8309,11 +8309,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -48.3867378,
-        "posY": 0.687672138,
-        "posZ": 7.55699635,
-        "rotX": 6.46856051E-07,
-        "rotY": 0.0332673267,
-        "rotZ": 4.971107E-07,
+        "posY": 0.6876725,
+        "posZ": 7.5569973,
+        "rotX": -3.02336645E-07,
+        "rotY": 0.033281818,
+        "rotZ": 1.77082518E-06,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -8323,7 +8323,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.7059021,
-        "g": 0.366551518,
+        "g": 0.366551459,
         "b": 0.0
       },
       "Locked": false,
@@ -9133,11 +9133,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -49.6487579,
-        "posY": 0.6876712,
-        "posZ": 0.3914671,
-        "rotX": 1.59399769E-06,
+        "posY": 0.6876713,
+        "posZ": 0.391466379,
+        "rotX": 7.68700033E-07,
         "rotY": 359.968018,
-        "rotZ": -5.65736457E-07,
+        "rotZ": -1.0693627E-07,
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 1.5
@@ -9147,7 +9147,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.7059021,
-        "g": 0.366551518,
+        "g": 0.366551459,
         "b": 0.0
       },
       "Locked": false,
@@ -10552,7 +10552,7 @@
       "GUID": "4b51a2"
     }
   ],
-  "LuaScript": "function onload()\r\nend\r\n\r\n--\r\n-- Containers GUIDs\r\nhardProblemsBagId = 'bc30d3'\r\neasyProblemsBagId = '4b51a2'\r\ndeckId = '10838d'\r\n\r\n--\r\n-- Places on the map\r\nlomotId = '7c4a87'\r\nlankrskiePescheriId = 'a44c9a'\r\nchernostekolyeId = '9b368e'\r\nskandId = '722be6'\r\nlankrskiyMostId = '9844f6'\r\n\r\nmestoGdeNeSvetitSolnce = '63a6b6'\r\nbritvennoeLezvie = 'b7b434'\r\nskolzkayaVpadina = '01b397'\r\nobelisk = '28bd77'\r\nverzila = 'e00aa6'\r\nribyiRuchyi = 'ddaca4'\r\npodzemelya = '4fd83f'\r\nvertkoyeIZhestkoyeMestechko = '5bb6f6'\r\nhizhinaMatushkiVetrovosk = 'd3e414'\r\nplyasuni = '2c32d7'\r\nkapustniyKolodec = '2e53b6'\r\nchertovDub = '7b2f92'\r\nlankrskiyZamok1 = '43f5d4'\r\nlankrskiyZamok2 = 'e08cb7'\r\ndurnoyZad = '38260b'\r\nlankrskiyProval = '4a631e'\r\nhizhinaMargat = 'e2b578'\r\nbezumniyDurnostay = 'c9b360'\r\ngorodLankr1 = '512a23'\r\ngorodLankr2 = 'e005d7'\r\ngorodLankr3 = '982b09'\r\n\r\n--\r\n-- Boxes on the field\r\nbox1 = 'd65a41'\r\nbox2 = '6d05ad'\r\nbox3 = 'c0fcf9'\r\nbox4 = 'e92d91'\r\nbox5 = '40f08c'\r\nbox6 = '3fdc38'\r\nboxes = {box1, box2, box3, box4, box5, box6}\r\n\r\ninitialHardProblemsBoxes = {\r\n\t{1, 1, 1, 0, 0, 0},\r\n\t{1, 1, 2, 1, 1, 1},\r\n\t{2, 2, 2, 2, 2, 2},\r\n\t{2, 2, 2, 2, 2, 0},\r\n}\r\ninitialEasyProblemsBoxes = {\r\n\t{2, 2, 1, 0, 0, 0},\r\n\t{2, 2, 1, 2, 1, 1},\r\n\t{2, 2, 2, 2, 2, 2},\r\n\t{4, 4, 4, 3, 3, 0},\r\n}\r\n\r\nfunction prepareTable(player, mouseBtn, btnId) \r\n\tlocal numberOfPlayers = 0\r\n\tif btnId == 'prepare1' then numberOfPlayers = 1\r\n\telseif btnId == 'prepare2' then numberOfPlayers = 2\r\n\telseif btnId == 'prepare3' then numberOfPlayers = 3\r\n\telse numberOfPlayers = 4\r\n\tend\r\n\r\n\tprint('Preparing a table for ' .. numberOfPlayers .. ' players')\r\n\r\n\t-- shuffle everything that needs to be shuffled\r\n\tshuffle(hardProblemsBagId)\r\n\tshuffle(easyProblemsBagId)\r\n\tshuffle(deckId)\r\n\r\n\t-- put problems on the field\r\n\tputHardProblemsOnField()\r\n\tputEasyProblemsOnField()\r\n\t\r\n\t-- put problems in the boxes\r\n\tputProblemsInBoxes(numberOfPlayers)\r\n\r\n\t-- TODO: put hihihiTokens\r\n\t\r\n\tclosePanel()\r\nend\r\n\r\nfunction shuffle(bagId)\r\n\tgetObjectFromGUID(bagId).shuffle()\r\nend\r\n\r\n\r\ninitialHardPlaces = {lomotId, lankrskiePescheriId, chernostekolyeId, skandId, lankrskiyMostId}\r\n\r\nfunction putHardProblemsOnField()\r\n\tlocal bag = getObjectFromGUID(hardProblemsBagId)\r\n\tfor k, placeId in pairs(initialHardPlaces) do\r\n\t\tputNextProblem(bag, placeId, true)\r\n\tend\r\nend\r\n\r\ninitialEasyPlaces = {\r\n\tmestoGdeNeSvetitSolnce,\r\n\tskolzkayaVpadina,\r\n\tribyiRuchyi,\r\n\tlankrskiyZamok1,\r\n\tdurnoyZad,\r\n\tplyasuni,\r\n\tkapustniyKolodec,\r\n\tgorodLankr1,\r\n\tgorodLankr2,\r\n\tbezumniyDurnostay\r\n}\r\n\r\nfunction putEasyProblemsOnField()\r\n\tlocal bag = getObjectFromGUID(easyProblemsBagId)\r\n\tfor k, placeId in pairs(initialEasyPlaces) do\r\n\t\tputNextProblem(bag, placeId, false)\r\n\tend\r\nend\r\n\r\nfunction putProblemsInBoxes(playersCount)\r\n\t-- hard problems\r\n\tlocal bag = getObjectFromGUID(hardProblemsBagId)\r\n\tfor i, numOfProblems in pairs(initialHardProblemsBoxes[playersCount]) do\r\n\t\tlocal boxId = boxes[i]\r\n\t\tfor x = 1, numOfProblems do\r\n\t\t\tputNextProblem(bag, boxId, true)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal bag = getObjectFromGUID(easyProblemsBagId)\r\n\tfor i, numOfProblems in pairs(initialEasyProblemsBoxes[playersCount]) do\r\n\t\tlocal boxId = boxes[i]\r\n\t\tfor x = 1, numOfProblems do\r\n\t\t\t-- 100ms delays between the spawns to give some time\r\n\t\t\t-- for previous problem to stop moving\r\n\t\t\tWait.time(|| putNextProblem(bag, boxId, false), x / 10)\r\n\t\tend\r\n\tend\r\nend\r\n\r\n\r\nfunction putNextProblem(bag, placeId, isHard)\r\n\tlocal params = buildProblemRetrievalParams(placeId, isHard) \r\n\tbag.takeObject(params)\r\nend\r\n\r\nfunction buildProblemRetrievalParams(placeId, isHard)\r\n\tplacePosition = getObjectFromGUID(placeId).positionToWorld(Vector(0, 0, 0))\r\n\r\n\treturn {\r\n\t\tposition = placePosition,\r\n\t\t-- rotate on 180 degrees as bag is positioned incorrectly\r\n\t\t-- at the beginning of the game\r\n\t\trotation = Vector(0, 180, 0),\r\n\t\tsmooth = not isHard,\r\n\t\tcallback_function = |problem| onProblemRetrieved(problem, isHard)\r\n\t}\r\nend\r\n\r\nfunction onProblemRetrieved(problem, isHard)\r\n\tif isHard then problem.flip() end\r\n\r\n\t-- Scale the problem token\r\n\tproblem.scale(2)\r\nend\r\n\r\nfunction closePanel()\r\n\tself.UI.hide('mainPanel')\r\nend\r\n",
+  "LuaScript": "function onload()\r\nend\r\n\r\n--\r\n-- Containers GUIDs\r\nhardProblemsBagId = 'bc30d3'\r\neasyProblemsBagId = '4b51a2'\r\ndeckId = '10838d'\r\nhihiBagId = 'e2eacb'\r\n\r\n--\r\n-- Places on the map\r\nlomotId = '7c4a87'\r\nlankrskiePescheriId = 'a44c9a'\r\nchernostekolyeId = '9b368e'\r\nskandId = '722be6'\r\nlankrskiyMostId = '9844f6'\r\n\r\nmestoGdeNeSvetitSolnce = '63a6b6'\r\nbritvennoeLezvie = 'b7b434'\r\nskolzkayaVpadina = '01b397'\r\nobelisk = '28bd77'\r\nverzila = 'e00aa6'\r\nribyiRuchyi = 'ddaca4'\r\npodzemelya = '4fd83f'\r\nvertkoyeIZhestkoyeMestechko = '5bb6f6'\r\nhizhinaMatushkiVetrovosk = 'd3e414'\r\nplyasuni = '2c32d7'\r\nkapustniyKolodec = '2e53b6'\r\nchertovDub = '7b2f92'\r\nlankrskiyZamok1 = '43f5d4'\r\nlankrskiyZamok2 = 'e08cb7'\r\ndurnoyZad = '38260b'\r\nlankrskiyProval = '4a631e'\r\nhizhinaMargat = 'e2b578'\r\nbezumniyDurnostay = 'c9b360'\r\ngorodLankr1 = '512a23'\r\ngorodLankr2 = 'e005d7'\r\ngorodLankr3 = '982b09'\r\n\r\n--\r\n-- Boxes on the field\r\nbox1 = 'd65a41'\r\nbox2 = '6d05ad'\r\nbox3 = 'c0fcf9'\r\nbox4 = 'e92d91'\r\nbox5 = '40f08c'\r\nbox6 = '3fdc38'\r\nboxes = {box1, box2, box3, box4, box5, box6}\r\n\r\ninitialHardProblemsBoxes = {\r\n\t{1, 1, 1, 0, 0, 0},\r\n\t{1, 1, 2, 1, 1, 1},\r\n\t{2, 2, 2, 2, 2, 2},\r\n\t{2, 2, 2, 2, 2, 0},\r\n}\r\ninitialEasyProblemsBoxes = {\r\n\t{2, 2, 1, 0, 0, 0},\r\n\t{2, 2, 1, 2, 1, 1},\r\n\t{2, 2, 2, 2, 2, 2},\r\n\t{4, 4, 4, 3, 3, 0},\r\n}\r\n\r\nfunction prepareTable(player, mouseBtn, btnId) \r\n\tlocal numberOfPlayers = 0\r\n\tif btnId == 'prepare1' then numberOfPlayers = 1\r\n\telseif btnId == 'prepare2' then numberOfPlayers = 2\r\n\telseif btnId == 'prepare3' then numberOfPlayers = 3\r\n\telse numberOfPlayers = 4\r\n\tend\r\n\r\n\tprint('Preparing a table for ' .. numberOfPlayers .. ' players')\r\n\r\n\t-- shuffle everything that needs to be shuffled\r\n\tshuffle(hardProblemsBagId)\r\n\tshuffle(easyProblemsBagId)\r\n\tshuffle(deckId)\r\n\r\n\t-- put problems on the field\r\n\tputHardProblemsOnField()\r\n\tputEasyProblemsOnField()\r\n\t\r\n\t-- put problems in the boxes\r\n\tputProblemsInBoxes(numberOfPlayers)\r\n\r\n\t-- take specific number of hihihiTokens from the bag\r\n\tputHihiTokens(numberOfPlayers)\r\n\t\r\n\tclosePanel()\r\nend\r\n\r\nfunction shuffle(bagId)\r\n\tgetObjectFromGUID(bagId).shuffle()\r\nend\r\n\r\n\r\ninitialHardPlaces = {lomotId, lankrskiePescheriId, chernostekolyeId, skandId, lankrskiyMostId}\r\n\r\nfunction putHardProblemsOnField()\r\n\tlocal bag = getObjectFromGUID(hardProblemsBagId)\r\n\tfor k, placeId in pairs(initialHardPlaces) do\r\n\t\tputNextProblem(bag, placeId, true)\r\n\tend\r\nend\r\n\r\ninitialEasyPlaces = {\r\n\tmestoGdeNeSvetitSolnce,\r\n\tskolzkayaVpadina,\r\n\tribyiRuchyi,\r\n\tlankrskiyZamok1,\r\n\tdurnoyZad,\r\n\tplyasuni,\r\n\tkapustniyKolodec,\r\n\tgorodLankr1,\r\n\tgorodLankr2,\r\n\tbezumniyDurnostay\r\n}\r\n\r\nfunction putEasyProblemsOnField()\r\n\tlocal bag = getObjectFromGUID(easyProblemsBagId)\r\n\tfor k, placeId in pairs(initialEasyPlaces) do\r\n\t\tputNextProblem(bag, placeId, false)\r\n\tend\r\nend\r\n\r\nfunction putProblemsInBoxes(playersCount)\r\n\t-- hard problems\r\n\tlocal bag = getObjectFromGUID(hardProblemsBagId)\r\n\tfor i, numOfProblems in pairs(initialHardProblemsBoxes[playersCount]) do\r\n\t\tlocal boxId = boxes[i]\r\n\t\tfor x = 1, numOfProblems do\r\n\t\t\tputNextProblem(bag, boxId, true)\r\n\t\tend\r\n\tend\r\n\r\n\tlocal bag = getObjectFromGUID(easyProblemsBagId)\r\n\tfor i, numOfProblems in pairs(initialEasyProblemsBoxes[playersCount]) do\r\n\t\tlocal boxId = boxes[i]\r\n\t\tfor x = 1, numOfProblems do\r\n\t\t\t-- 100ms delays between the spawns to give some time\r\n\t\t\t-- for previous problem to stop moving\r\n\t\t\tWait.time(|| putNextProblem(bag, boxId, false), x / 10)\r\n\t\tend\r\n\tend\r\nend\r\n\r\nfunction putHihiTokens(playersCount)\r\n\tlocal bag = getObjectFromGUID(hihiBagId)\r\n\tlocal hihiTokensCount = playersCount * 4\r\n\tlocal params = {\r\n\t\tposition = bag.positionToWorld(Vector(0, 0, 5)),\r\n\t\trotation = Vector(0, 180, 0),\r\n\t}\r\n\tfor i = 1, hihiTokensCount do\r\n\t\tbag.takeObject(params)\r\n\tend\r\n\r\n\t-- delete the bag as it's not required anymore\r\n\tWait.time(|| destroyObject(bag), 1)\r\nend\r\n\r\n\r\nfunction putNextProblem(bag, placeId, isHard)\r\n\tlocal params = buildProblemRetrievalParams(placeId, isHard) \r\n\tbag.takeObject(params)\r\nend\r\n\r\nfunction buildProblemRetrievalParams(placeId, isHard)\r\n\tplacePosition = getObjectFromGUID(placeId).positionToWorld(Vector(0, 0, 0))\r\n\r\n\treturn {\r\n\t\tposition = placePosition,\r\n\t\trotation = Vector(0, 180, 0),\r\n\t\tsmooth = not isHard,\r\n\t\tcallback_function = |problem| onProblemRetrieved(problem, isHard)\r\n\t}\r\nend\r\n\r\nfunction onProblemRetrieved(problem, isHard)\r\n\tif isHard then problem.flip() end\r\n\r\n\t-- Scale the problem token\r\n\tproblem.scale(2)\r\nend\r\n\r\nfunction closePanel()\r\n\tself.UI.hide('mainPanel')\r\nend\r\n",
   "LuaScriptState": "",
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->\r\n<Defaults>\r\n  <!-- Set the default color and font size for all Text elements -->\r\n  <Text color=\"black\" fontSize=\"23\" />\r\n  <Panel width = \"30%\" height = \"40%\" color=\"white\" allowDragging=\"true\" returnToOriginalPositionWhenReleased=\"false\"/>\r\n  <button class=\"close\" width=\"20\" height=\"20\" color='red'/>\r\n</Defaults>\r\n\r\n<Panel id='mainPanel' shadow=\"black\">\r\n  <VerticalLayout>\r\n    <TableLayout>\r\n      <Row>\r\n        <Cell columnSpan='20'></Cell>\r\n        <Cell>\r\n          <button class=\"close\" onClick=\"closePanel\">X</button>\r\n        </Cell>\r\n      </Row>\r\n    </TableLayout>\r\n    <Text>Выберите количество игроков:</Text>\r\n    <Button id=\"prepare1\" onClick=\"prepareTable\">1 игрок</Button>\r\n    <Button id=\"prepare2\" onClick=\"prepareTable\">2 игрока</Button>\r\n    <Button id=\"prepare3\" onClick=\"prepareTable\">3 игрока</Button>\r\n    <Button id=\"prepare4\" onClick=\"prepareTable\">4 игрока</Button>\r\n  </VerticalLayout>\r\n</Panel>",
   "SnapPoints": [
